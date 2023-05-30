@@ -1,0 +1,348 @@
+/* ============
+COMMON CSS START 
+============ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.open {
+  font-family: "Open Sans", sans-serif;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+/* ============
+COMMON CSS END 
+============ */
+
+/* ============
+NAV CSS START 
+============ */
+nav {
+  padding-top: 33px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav label {
+  color: #fff;
+  font-size: 28px;
+  display: none;
+}
+
+.nav input {
+  display: none;
+}
+
+.logo {
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.nav-item {
+  padding-right: 50px;
+}
+
+.nav-item ul {
+  display: flex;
+  gap: 31px;
+  align-items: center;
+}
+
+.nav-item ul li {
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+}
+/* ============
+NAV CSS END 
+============ */
+
+/* ============
+BANNER CSS START 
+============ */
+.banner {
+  background: url(../images/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 300px;
+  padding-bottom: 350px;
+}
+
+.banner article {
+  padding-left: 10px;
+  padding-top: 80px;
+}
+
+.banner p {
+  font-size: 18px;
+  color: #ffc178;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.banner h1 {
+  font-size: 88px;
+  color: #fff;
+  width: 860px;
+  margin-top: 37px;
+}
+
+.banner h1 span {
+  font-size: 96px;
+  color: #fff;
+}
+
+/* ============
+BANNER CSS END 
+============ */
+/* ============
+HOLIDAY CSS START 
+============ */
+
+.holiday {
+  padding-top: 286px;
+  padding-bottom: 250px;
+  background: #000000;
+}
+.holiday-item {
+  display: flex;
+  column-gap: 139px;
+  align-items: center;
+}
+
+.content h6 {
+  color: #fbd784;
+  font-size: 18px;
+  letter-spacing: 5px;
+}
+.content h2 {
+  color: #fff;
+  font-size: 65px;
+  width: 440px;
+  margin-top: 13px;
+}
+.content p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 32px;
+  margin-top: 13px;
+  margin-bottom: 65px;
+  width: 587px;
+  text-transform: uppercase;
+}
+.content a {
+  color: #fbd784;
+  font-size: 18px;
+}
+
+/* ============
+HOLIDAY CSS END 
+============ */
+
+/* ============
+climb CSS END 
+============ */
+
+.climb {
+  background: #000000;
+}
+
+.background {
+  background: url(../images/climb\ .webp);
+  padding-top: 500px;
+  padding-bottom: 155px;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+}
+
+.background .contents {
+  width: 828px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contents h5 {
+  color: #fbd784;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.contents h3 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 64px;
+}
+
+.background .contents p {
+  font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 26px;
+}
+
+.contents a {
+  color: #fbd784;
+  font-size: 18px;
+}
+/* ============
+climb CSS END 
+============ */
+
+/* ============
+culture CSS start 
+============ */
+
+.culture {
+  padding-top: 295px;
+  padding-bottom: 295px;
+  background: #000000;
+}
+
+.items {
+  display: flex;
+  column-gap: 37px;
+  align-items: center;
+}
+
+.item-one {
+  width: 50%;
+}
+
+.item-one h5 {
+  font-size: 18px;
+  color: #fbd784;
+  margin-bottom: 18px;
+}
+.item-one h2 {
+  font-size: 64px;
+  color: #fff;
+  margin-bottom: 18px;
+  width: 635px;
+  text-transform: uppercase;
+}
+
+.item-one p {
+  font-size: 16px;
+  color: #fff;
+  width: 580px;
+  text-transform: uppercase;
+  line-height: 32px;
+  padding-bottom: 47px;
+}
+.item-one a {
+  font-size: 18px;
+  color: #fbd784;
+}
+.item-two {
+  width: 50%;
+}
+
+/* ============
+culture CSS END 
+============ */
+
+/* ============
+footer CSS start 
+============ */
+.footer {
+  background: #000000;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+.one {
+  width: 340px;
+  height: 500px;
+}
+
+.one p {
+  font-size: 36px;
+  color: #fff;
+  margin-top: 82px;
+  margin-bottom: 49px;
+}
+
+.one a {
+  color: #fff;
+  font-size: 18px;
+}
+
+.one .privacy {
+  margin-left: 20px;
+}
+
+.one ul {
+  font-size: 19px;
+  color: #fff;
+  margin-top: 122px;
+}
+
+.one ul li {
+  margin-top: 40px;
+}
+
+.one .first-li {
+  color: #fbd784;
+  font-size: 20px;
+}
+
+.one span {
+  color: #fff;
+  font-size: 22px;
+}
+.one button {
+  color: #000000;
+  font-size: 17px;
+  background-color: #ffa343;
+  border: none;
+  padding: 23px 93px;
+  border-radius: 10px;
+}
+
+.one .three {
+  margin-top: 94px;
+}
+.one .four {
+  margin-top: 54px;
+}
+/* ============
+footer CSS END 
+============ */
